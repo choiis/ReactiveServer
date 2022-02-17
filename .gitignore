@@ -1,5 +1,7 @@
-target/
 .settings/
+.gradle/
+.idea/
+build/
 .classpath
 .project
 .HELP.md

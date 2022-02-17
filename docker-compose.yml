@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  redis:
+    image: redis:6.0.5
+    restart: always
+    command: "redis-server --port 6379"
+    labels:
+      - "name=redis"
+      - "mode=standalone"
+    ports:
+      - "6379:6379"
