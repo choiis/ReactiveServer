@@ -1,16 +1,16 @@
 
 ## ReactiveServer
-Webflux로 구현된 Spring Redis CRUD 서버입니다
+It is a Spring Redis CRUD server implemented with Webflux.
 ### Build & run
 
-* openjdk 11버전 gradle 7.3버전을 사용합니다
+* I use openjdk 11 version gradle 7.3 version
 
-* docker-compose로 Redis서버를 시작합니다
+* Start the Redis server with docker-compose
 ```
 docker-compose up
 ```
 
-* Spring Boot 서버를 시작합니다
+* Start the Spring Boot server
 ```
 gradle build
 gradle bootrun
